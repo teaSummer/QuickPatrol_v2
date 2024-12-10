@@ -1,0 +1,77 @@
+/* QuickPatrol_v2 CSS */
+.quickpatrol, .patrolled {
+    color: green;
+    cursor: help;
+}
+
+.quickpatrol.unpatrolled {
+    color: #d33;
+    cursor: pointer;
+}
+
+.patrolling {
+    color: magenta;
+}
+
+.patrolling.quickpatrol {
+    font-weight: bold;
+}
+
+.quickpatrol-icon-unpatrolled {
+    position: absolute;
+    left: -0.8em;
+    margin-left: -1px;
+    text-decoration: underline dotted;
+    font-family: sans-serif;
+    margin-left: -0.1em;
+    font-weight: normal;
+}
+
+.quickpatrol-icon-unpatrolled.unpatrolled {
+    color: red;
+    font-weight: bold;
+}
+
+.quickpatrol-icon-unpatrolled:not(.unpatrolled) {
+    left: -1.15em;
+    margin-left: 0;
+}
+
+.quickpatrol-icon-unpatrolled.quickpatrol.patrolling {
+    left: -1em;
+}
+
+.quickpatrol-rollback {
+    font-style: italic;
+    font-family: math;
+}
+
+.quickpatrol-rollback.consolas {
+    font-family: Consolas;
+}
+
+.diff-version.patrolling {
+    color: #ff1493;
+}
+
+.diff-version:not(.diff-hidden-history):not([title]) {
+    color: blue;
+    cursor: pointer;
+}
+
+.new_wikitext {
+    margin-top: 2em;
+}
+
+.quickpatrol-abuseedit {
+    margin-top: 0.5em;
+}
+
+.quickpatrol-abuseedit-summary {
+    display: inline-block;
+    width: max-content;
+    padding: 1px 5px;
+    border: 1px solid;
+    margin-left: 0.5em;
+    font-size: 0.95em;
+}
