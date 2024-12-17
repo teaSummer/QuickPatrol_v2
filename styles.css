@@ -60,8 +60,9 @@
 }
 
 .page_prefixedtitle {
-    margin-top: 2em;
+    display: block;
     width: 40%;
+    margin-top: 2em;
 }
 
 .new_wikitext {
