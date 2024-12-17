@@ -59,8 +59,13 @@
     cursor: pointer;
 }
 
-.new_wikitext {
+.page_prefixedtitle {
     margin-top: 2em;
+    width: 40%;
+}
+
+.new_wikitext {
+    margin-top: 0.4em;
 }
 
 .quickpatrol-abuseedit {
