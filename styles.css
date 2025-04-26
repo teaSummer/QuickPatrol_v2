@@ -84,3 +84,19 @@
     margin-left: 0.5em;
     font-size: 0.95em;
 }
+
+.quickpatrol-setting {
+    font-size: 1em;
+}
+
+.quickpatrol-setting label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.quickpatrol-setting label input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+}
