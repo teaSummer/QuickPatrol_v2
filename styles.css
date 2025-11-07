@@ -74,10 +74,6 @@
     margin-top: 0.5em;
 }
 
-.quickpatrol-abuseedit[disabled] {
-    color: magenta;
-}
-
 .quickpatrol-abuseedit-summary {
     display: inline-block;
     padding: 3px 5px;
