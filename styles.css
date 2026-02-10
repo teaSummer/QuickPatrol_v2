@@ -1,4 +1,4 @@
-/* QuickPatrol_v2 CSS */
+/* QuickPatrol_v2 styles */
 .quickpatrol, .patrolled {
     color: green;
     cursor: help;
@@ -104,4 +104,9 @@
 
 .quickpatrol-rollback.quickpatrol-click {
     font-weight: bold;
+}
+
+/* fixes InPageEdit v2 */
+.mw-history-compareselectedversions-button+.cdx-button+.cdx-button {
+    display: none;
 }
