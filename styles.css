@@ -1,4 +1,4 @@
-/* QuickPatrol_v2 styles */
+/* Main styles */
 .quickpatrol, .patrolled {
     color: green;
     cursor: help;
@@ -81,18 +81,18 @@
     margin-left: 0.5em;
 }
 
-.quickpatrol-setting {
+.quickpatrol-settings {
     font-size: 1em;
 }
 
-.quickpatrol-setting label {
+.quickpatrol-settings label {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
 }
 
-.quickpatrol-setting label input[type=checkbox] {
+.quickpatrol-settings label input[type=checkbox] {
     width: 16px;
     height: 16px;
 }
@@ -106,7 +106,7 @@
     font-weight: bold;
 }
 
-/* fixes InPageEdit v2 */
+/* fix InPageEdit v2 styles */
 .mw-history-compareselectedversions-button+.cdx-button+.cdx-button {
     display: none;
 }
