@@ -1,4 +1,4 @@
-/* Main styles */
+/* main styles */
 .quickpatrol, .patrolled {
     color: green;
     cursor: help;
@@ -41,20 +41,20 @@
     left: -1em;
 }
 
-.quickpatrol-rollback {
+.quickpatrol-rollback:not(button) {
     font-style: italic;
     font-family: math;
 }
 
-.quickpatrol-rollback.consolas {
+.quickpatrol-rollback.consolas:not(button) {
     font-family: Consolas;
 }
 
-.diff-version.patrolling {
+[data-quickpatrol].patrolling {
     color: #ff1493;
 }
 
-.diff-version:not(.diff-hidden-history):not([title]) {
+[data-quickpatrol]:not(.diff-hidden-history):not([title]) {
     color: blue;
     cursor: pointer;
 }
@@ -102,11 +102,12 @@
     font-size: 0.85em;
 }
 
-.quickpatrol-rollback.quickpatrol-click {
+.quickpatrol-click {
     font-weight: bold;
+    font-style: italic;
 }
 
-/* fix InPageEdit v2 styles */
+/* fix InPageEdit v2 */
 .mw-history-compareselectedversions-button+.cdx-button+.cdx-button {
     display: none;
 }
