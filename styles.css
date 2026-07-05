@@ -107,6 +107,15 @@
     font-style: italic;
 }
 
+.quickpatrol-undo:has(+.quickpatrol-undo-one) {
+    display: none;
+}
+
+.quick-diff:has(.quickpatrol-click) .pageName {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
 /* fix InPageEdit v2 */
 .mw-history-compareselectedversions-button+.cdx-button+.cdx-button {
     display: none;
