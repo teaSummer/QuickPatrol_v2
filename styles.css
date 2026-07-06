@@ -116,3 +116,11 @@
 .mw-history-compareselectedversions-button+.cdx-button+.cdx-button {
     display: none;
 }
+
+.quick-diff .btn-secondary {
+    text-transform: lowercase;
+}
+
+.quick-diff .btn-secondary::first-letter {
+    text-transform: uppercase;
+}
