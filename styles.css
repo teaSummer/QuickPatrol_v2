@@ -59,18 +59,7 @@
     cursor: pointer;
 }
 
-.page_prefixedtitle {
-    display: block;
-    width: 40%;
-    height: 1.5em;
-    margin-top: 2em;
-}
-
-.new_wikitext {
-    margin-top: 0.4em;
-}
-
-.quickpatrol-abuseedit {
+.quickpatrol-abuseedit-apply {
     margin-top: 0.5em;
 }
 
@@ -79,6 +68,17 @@
     padding: 3px 5px;
     border: 1px solid;
     margin-left: 0.5em;
+}
+
+.quickpatrol-abuseedit-title {
+    display: block;
+    width: 40%;
+    height: 1.5em;
+    margin-top: 2em;
+}
+
+..quickpatrol-abuseedit-editor {
+    margin-top: 0.4em;
 }
 
 .quickpatrol-settings {
